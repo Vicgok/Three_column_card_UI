@@ -12,8 +12,11 @@
 }
 /* frontend guys styles */
 .attribution {
-  font-size: 11px;
+  font-size: clamp(0.8rem, 1.05vw, 1.94rem);
+
   text-align: center;
+
+  margin-top: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -34,6 +37,7 @@ body {
   font-size: 15px;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 5em;
